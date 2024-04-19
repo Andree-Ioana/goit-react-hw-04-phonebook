@@ -52,6 +52,7 @@ const Formular = ({ onAddContact, contacts }) => {
           className={styles.input}
         />
 
+        
         <label className={styles.number}>Number </label>
         <input
           type="tel"
@@ -59,7 +60,7 @@ const Formular = ({ onAddContact, contacts }) => {
           required
           value={number}
           onChange={handleChangeNumber}
-          className={styles.input}
+          className={styles.input} 
         />
 
         <Button title="Add contact" type="submit" />
